@@ -3,7 +3,9 @@ $(document).ready(function(){
         var something = $('#message').val();
         console.log(something);
         $('#wall').prepend('<div>' + something + '</div')
-        });
+        
+        
+    });
      });
 
 
